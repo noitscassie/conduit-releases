@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.2.0</title>
+      <pubDate>Sun, 15 Nov 2026 22:34:58 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Sign in to GitHub through Conduit&amp;#x27;s GitHub App, and choose which repositories it can see&lt;/li&gt;&lt;li&gt;A branch&amp;#x27;s GitHub review shows in its diffs, and as a review chip in the chat&lt;/li&gt;&lt;li&gt;A welcome pane walks a new Mac user through an agent, GitHub and a first folder&lt;/li&gt;&lt;li&gt;Send feedback or report a bug from the Help menu, filed as a public GitHub issue&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Folder settings live in the folder&amp;#x27;s conduit.json, so they reach every worktree&lt;/li&gt;&lt;li&gt;The project brief&amp;#x27;s text can be selected&lt;/li&gt;&lt;li&gt;The conduit.json schema is served from the public releases repo&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.2.0/Conduit-0.2.0.zip" sparkle:edSignature="uRuXjGiOrEeFCwVUkDQCvfeZM4CPRDXI1rWCcmweVLqelRH4pvdZXiXs1b4TgleDrx/J+DUEzjyjaygH8NCEDQ==" length="31131790" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.1.4</title>
       <pubDate>Sun, 15 Nov 2026 11:28:56 GMT</pubDate>
       <sparkle:version>6</sparkle:version>
