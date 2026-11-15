@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/noitscassie/conduit-releases/main/conduit.schema.json",
+  "title": "conduit.json",
+  "description": "Project-level configuration for Conduit. Drop this file in a project's root to declare runnable scripts and workspace defaults.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "URL of this schema, so editors can validate and autocomplete the file."
+    },
+    "scripts": {
+      "type": "object",
+      "description": "Commands runnable from the Scripts tab. Keys are the names shown in the list; declaration order drives display order. Prefer the object form and give every script a description. A script named \"setup\" also runs automatically in every new worktree, from the worktree's root, and one named \"teardown\" runs when a worktree is archived.",
+      "propertyNames": {
+        "pattern": "\\S"
+      },
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "string",
+            "description": "Shorthand for { \"command\": \"...\" }, accepted for compatibility. Prefer the object form: a script with no description falls back to showing its own command twice.",
+            "pattern": "\\S",
+            "deprecated": true
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "command",
+              "description"
+            ],
+            "properties": {
+              "command": {
+                "type": "string",
+                "description": "Shell command, run from the project directory on the remote host via a login shell.",
+                "pattern": "\\S"
+              },
+              "description": {
+                "type": "string",
+                "description": "One-line summary shown under the script name. Defaults to the command if omitted, which reads poorly — write a real one."
+              },
+              "interactive": {
+                "type": "boolean",
+                "description": "Run under a PTY with a key composer, for long-running processes that read stdin (watchers, REPLs, flutter run).",
+                "default": false
+              }
+            },
+            "description": "A script. Give it a command and a description."
+          }
+        ]
+      }
+    },
+    "settings": {
+      "type": "object",
+      "description": "The folder's defaults, edited by its Settings in Conduit. A worktree follows the main checkout's copy, falling back to its own.",
+      "additionalProperties": false,
+      "properties": {
+        "devServerCommand": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Command the Server tab runs for this project."
+        },
+        "interactiveServer": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Run the dev server under a PTY with a key composer. Null defers to the app's per-workspace setting."
+        },
+        "defaultModel": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Model for new and resumed sessions. An alias or a full model id.",
+          "examples": [
+            "opus",
+            "sonnet",
+            "haiku"
+          ]
+        },
+        "permissionMode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "How Claude handles tool-use approvals. Null prompts for each tool use.",
+          "enum": [
+            null,
+            "default",
+            "plan",
+            "acceptEdits",
+            "bypassPermissions"
+          ]
+        },
+        "defaultModeAfterPlan": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Permission mode to switch to once Claude's plan is accepted. Null means acceptEdits.",
+          "enum": [
+            null,
+            "default",
+            "plan",
+            "acceptEdits",
+            "bypassPermissions"
+          ]
+        },
+        "diffBaseRef": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Ref the Diff tab compares against. Null detects it from origin/HEAD.",
+          "examples": [
+            "origin/main"
+          ]
+        }
+      }
+    }
+  }
+}
