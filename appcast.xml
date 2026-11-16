@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.2.1</title>
+      <pubDate>Mon, 16 Nov 2026 13:47:01 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Codex chats taken over from Claude Code show their tool calls as steps, not raw tags, and drop Conductor&amp;#x27;s instructions from titles and prompts&lt;/li&gt;&lt;li&gt;Codex chats name Codex in the transcript and the composer&lt;/li&gt;&lt;li&gt;Fenced code in the composer is drawn as one panel&lt;/li&gt;&lt;li&gt;Whole PR stacks are found in busy repos, and drawn like GitHub&amp;#x27;s&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Sending comments from a diff tab with Ask Claude no longer leaves the chat blank&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.2.1/Conduit-0.2.1.zip" sparkle:edSignature="YU6/zRN1VxeFdBedl+Ecpd5j+BkuMGTGkcm+kH9EUurGrxbX3lFhYa7WuOF4MOmxYkCFT++SomMuePiZdntOAg==" length="30971781" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.2.0</title>
       <pubDate>Sun, 15 Nov 2026 22:34:58 GMT</pubDate>
       <sparkle:version>7</sparkle:version>
