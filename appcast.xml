@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.3.0</title>
+      <pubDate>Tue, 17 Nov 2026 08:00:16 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bold, italic, code and links are styled as you type in every field whose text goes to Claude: line comments, question answers, the new-worktree prompt and feedback&lt;/li&gt;&lt;li&gt;Script output shows in the inspector&amp;#x27;s Scripts tab&lt;/li&gt;&lt;li&gt;Long chats open at the bottom straight away, and reopen without re-reading the whole transcript&lt;/li&gt;&lt;li&gt;Commands on This Mac start much faster: they no longer source your shell profile each time&lt;/li&gt;&lt;li&gt;Big repos stay quick: the palette and branch lists, a worktree&amp;#x27;s changes, and pull request and workspace reads all cost far less&lt;/li&gt;&lt;li&gt;Chats no longer recompute their status chips on every streamed word&lt;/li&gt;&lt;li&gt;Long diffs, files and project activity build only the rows on screen, and big edits no longer stall the chat&lt;/li&gt;&lt;li&gt;Hidden chats, the sidebar and streaming replies redraw far less, so many open chats stay smooth&lt;/li&gt;&lt;li&gt;Refreshing, refocusing the window and following a run ask the host much less, and never pile up on a slow one&lt;/li&gt;&lt;li&gt;Script output is capped so long runs stay responsive, and image thumbnails are decoded at the size they&amp;#x27;re shown&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.3.0/Conduit-0.3.0.zip" sparkle:edSignature="+fsMCL5PqNuN9ozVfAZp5zCIYZScqN559gsW82mxfUVK90FO6PD/aCwSq0sSVsRj6ahR9X43mym7Gnr0dmWdBQ==" length="31207773" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.2.1</title>
       <pubDate>Mon, 16 Nov 2026 13:47:01 GMT</pubDate>
       <sparkle:version>8</sparkle:version>
