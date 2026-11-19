@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.6.0</title>
+      <pubDate>Thu, 19 Nov 2026 23:12:51 GMT</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Conduit Agent, an early preview: a third agent beside Claude Code and Codex that runs open models on Amazon Bedrock with your own AWS account, no other CLI needed. Set it up from a server&amp;#x27;s profile (Conduit Agent provider…) with this machine&amp;#x27;s AWS sign-in or a Bedrock API key, then pick it as a chat&amp;#x27;s agent. It reads, edits and searches files, runs commands, asks before acting, plans, and can dispatch and work alongside project agents&lt;/li&gt;&lt;li&gt;An emoji button in the Mac&amp;#x27;s composers opens the system emoji picker&lt;/li&gt;&lt;li&gt;Script output can be selected and copied&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;The Git tab is an outline of the workspace&amp;#x27;s work: its PRs and how they stack, what isn&amp;#x27;t on a PR yet, and each branch&amp;#x27;s commits and files in place&lt;/li&gt;&lt;li&gt;A branch is diffed against its PR&amp;#x27;s base, so a review shows only what that PR adds&lt;/li&gt;&lt;li&gt;New worktree chats start from the same composer on the Mac and on phones, and phones can paste attachments into the first message&lt;/li&gt;&lt;li&gt;A worktree being created already looks like the workspace it becomes&lt;/li&gt;&lt;li&gt;⌘R runs the dev server from any pane, and new worktrees no longer start it unless you tick the box&lt;/li&gt;&lt;li&gt;Grok models are no longer offered or run, with any agent&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Agents a chat dispatches could start signed out when Claude&amp;#x27;s sign-in comes from your shell profile&lt;/li&gt;&lt;li&gt;A dispatched agent that crashes, fails its setup, runs out of runs for the day or stops without reporting now tells the chat that dispatched it&lt;/li&gt;&lt;li&gt;Mark as Unread on the chat in view sticks on the Mac&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.6.0/Conduit-0.6.0.zip" sparkle:edSignature="1vPXshR7qUObnyU9Gz6ZQs6H9Sj0AWEDVUWfJsvTx5IO++2S5HtEq5Eq1KvfWo6FQcd3BMvcM75R7cB+yXwKDw==" length="41426973" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.5.0</title>
       <pubDate>Thu, 19 Nov 2026 08:03:58 GMT</pubDate>
       <sparkle:version>12</sparkle:version>
