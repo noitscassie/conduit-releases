@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.5.0</title>
+      <pubDate>Thu, 19 Nov 2026 08:03:58 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A new worktree&amp;#x27;s pane opens the moment you press Start, with your first message waiting in it while git makes the worktree&lt;/li&gt;&lt;li&gt;Folder and project headers in the sidebar count their unread chats&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Unread chats stand out, and a chat is marked read only once you&amp;#x27;ve seen it, including after a relaunch&lt;/li&gt;&lt;li&gt;Long transcripts scroll smoothly: messages you&amp;#x27;ve already scrolled past aren&amp;#x27;t rebuilt&lt;/li&gt;&lt;li&gt;Opening an earlier session while its worktree&amp;#x27;s chat is running shows it straight away, beside the running chat&lt;/li&gt;&lt;li&gt;On the Mac, Add workspace in a project opens the New Worktree dialog with the project chosen, and opens the new worktree&lt;/li&gt;&lt;li&gt;Typing in the composer leaves the transcript where you scrolled it, so you can quote earlier parts&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A chat you come back to while it&amp;#x27;s working stays live however long the run takes, rather than folding its work and unlocking mid-run&lt;/li&gt;&lt;li&gt;Scripts that finished quickly no longer show as running, and old failures don&amp;#x27;t come back on every launch&lt;/li&gt;&lt;li&gt;Clicking an earlier session under a busy worktree no longer does nothing&lt;/li&gt;&lt;li&gt;Opening a session from a folder pane no longer covers the pane with a full-screen chat&lt;/li&gt;&lt;li&gt;A failed worktree creation is reported instead of passing for success&lt;/li&gt;&lt;li&gt;A failed conduit.json read no longer passes for a missing file&lt;/li&gt;&lt;li&gt;Cancelling a Claude sign-in waits for the login to exit&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.5.0/Conduit-0.5.0.zip" sparkle:edSignature="DSr7JJGgc7oHUbpqt38o3dHzsD6c+SIvxa3d+iKoNzTxKr3Df1YJ3XyP4kohqjenAbpq6SNZu7s+NWNi79OqAQ==" length="31511143" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.4.0</title>
       <pubDate>Wed, 18 Nov 2026 08:31:26 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
