@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.7.1</title>
+      <pubDate>Fri, 20 Nov 2026 18:01:33 GMT</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Database-CLI sources can be marked &amp;quot;Runs psql underneath&amp;quot;. Conduit then sends quiet CSV settings with the query, wraps it in a read-only transaction by default, and ignores your own `.psqlrc`&lt;/li&gt;&lt;li&gt;Each database-CLI source can set its own environment variables, such as a cloud profile to pick which role it connects as&lt;/li&gt;&lt;li&gt;A database-CLI source that fails shows the command&amp;#x27;s whole output, including sign-in messages it prints to stdout. A command that prints nothing is reported as an error, not as zero rows&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A database-CLI source that takes the SQL as an argument must say where with `{sql}`. Before, the SQL was added to the end of the command, which could run one of the CLI&amp;#x27;s own subcommands&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.7.1/Conduit-0.7.1.zip" sparkle:edSignature="aV+8kujVudYJAXgi0PL7UyLggQOZn2/pEJN8+eXPkmoeUUpIbUarAs5meT+J14/8gbFNOl79BzWzLZw8OlRfAg==" length="41789999" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.7.0</title>
       <pubDate>Fri, 20 Nov 2026 15:54:57 GMT</pubDate>
       <sparkle:version>14</sparkle:version>
