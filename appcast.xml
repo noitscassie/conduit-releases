@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.7.0</title>
+      <pubDate>Fri, 20 Nov 2026 15:54:57 GMT</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Dashboards, a new tab on each project: chart your own Postgres, Redshift or database-CLI queries as lines, bars, numbers and tables, set goals on them, and keep notes beside each chart. Open a chart as a tab to edit its SQL, see its history, and run it again&lt;/li&gt;&lt;li&gt;Agents can work towards a dashboard goal: chats can query your data sources, add and annotate charts, and hand a goal to an agent they dispatch. Charts they save are drawn right in the transcript&lt;/li&gt;&lt;li&gt;Project goals show on the Context tab, and the Activity feed notes when a goal moved after a PR merged&lt;/li&gt;&lt;li&gt;A chat waiting on a background task says so above the composer, with its output and a Stop button, instead of looking finished&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;HTML and Markdown files can be previewed from a diff tab&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.7.0/Conduit-0.7.0.zip" sparkle:edSignature="IQN/7+Z9ZUkx4OJHKAID2nLmZK3bHKgVNld4zZbjPl83IS4FQ4AbOWUzQzNrdvTzE/KdAhkStrMICmyv6eenDg==" length="41768967" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.6.0</title>
       <pubDate>Thu, 19 Nov 2026 23:12:51 GMT</pubDate>
       <sparkle:version>13</sparkle:version>
