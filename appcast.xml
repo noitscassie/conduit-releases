@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.7.2</title>
+      <pubDate>Sat, 21 Nov 2026 00:07:12 GMT</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Searching a conversation highlights each match where it appears, including in code, tool output and raw lines. The match you&amp;#x27;re on stands out, and ↩ / ⇧↩ (or ⌘G / ⇧⌘G) step one match at a time, scrolling straight to it&lt;/li&gt;&lt;li&gt;Search has a match-case toggle (Aa) and works in the raw transcript too, opening the line it lands on&lt;/li&gt;&lt;li&gt;Switching between the styled and raw transcript is a Styled · Raw toggle in the search bar and the raw view, beside the toggle for lines Conduit can&amp;#x27;t render. On the Mac, Session › Show Raw Transcript is ⌥⌘U&lt;/li&gt;&lt;li&gt;The MCP connectors list can be filtered, and puts servers that need you first. A server that needs signing in has a button that runs the sign-in in a new terminal tab on the Mac, with Copy command everywhere&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Text in a conversation can be selected across messages, and the transcript scrolls as a selection reaches the top or bottom, so you&amp;#x27;re no longer limited to what&amp;#x27;s on screen&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.7.2/Conduit-0.7.2.zip" sparkle:edSignature="w6HVDa/cZVpXk2TtWBkasb2+XdxPUqMamPQ40J0ULWoo5dFvg5i8TfZsYv0F517ue+7W6B3hWtYS255kSPMECg==" length="42018919" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.7.1</title>
       <pubDate>Fri, 20 Nov 2026 18:01:33 GMT</pubDate>
       <sparkle:version>15</sparkle:version>
