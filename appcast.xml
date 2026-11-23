@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.8.1</title>
+      <pubDate>Mon, 23 Nov 2026 00:03:47 GMT</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Share a design for review: the viewer&amp;#x27;s Share menu saves it as one HTML file anyone can open in a browser, leave notes on and copy them back as text for Slack. Paste feedback in the viewer puts their notes back where they were drawn&lt;/li&gt;&lt;li&gt;Emoji by name: type a colon and a couple of letters in any message field for a list of matching emoji, or finish a `:name:` to swap it in. Pick your skin tone from the list, and the ones you use most come first&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.8.1/Conduit-0.8.1.zip" sparkle:edSignature="SScooNWexIwHJdGLDR4XabZaW1xwAFccKTVBYWNF8aAVAem4G695/YZxCAjs9rUaij+Qn1qn0buRM0vSwCVhCw==" length="43545182" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.8.0</title>
       <pubDate>Sun, 22 Nov 2026 20:15:38 GMT</pubDate>
       <sparkle:version>17</sparkle:version>
