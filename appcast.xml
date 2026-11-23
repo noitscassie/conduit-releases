@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.9.0</title>
+      <pubDate>Mon, 23 Nov 2026 23:10:42 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Archiving a worktree gives its disk back: its uncommitted work is kept, its teardown script runs and the checkout is removed, and it comes back as it was when you unarchive it or send to one of its chats. **Free up space** on All Worktrees does the same for worktrees archived before&lt;/li&gt;&lt;li&gt;Every PR a workspace has raised is one chip away in the chat, each with where it stands, and on the Mac a click opens its diff in the Git panel&lt;/li&gt;&lt;li&gt;Type a PR number in ⌘K to jump to the worktree it was raised from&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A workspace&amp;#x27;s PR state stays live while it&amp;#x27;s on screen&lt;/li&gt;&lt;li&gt;Step through a design&amp;#x27;s screens with ‹ › and ← →, in the viewer and in a shared design&lt;/li&gt;&lt;li&gt;Background task notices fold to one line&lt;/li&gt;&lt;li&gt;Chats on This Mac start their commands without holding up the window, and hidden panes wait to refresh git and open files until they&amp;#x27;re shown&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A long chat&amp;#x27;s transcript no longer jumps on every keystroke&lt;/li&gt;&lt;li&gt;Published designs stay in view when a turn&amp;#x27;s work folds&lt;/li&gt;&lt;li&gt;A design page can get shorter than the notes layer drawn over it&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.9.0/Conduit-0.9.0.zip" sparkle:edSignature="8mHGR424CtT9N2+eZDah5trVEazgwJMqr9q9JmQnGcfhXDKj4RYYFkMbA3V9qgVHWdOySZg31sRdGoyARfWuBg==" length="43798823" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.8.1</title>
       <pubDate>Mon, 23 Nov 2026 00:03:47 GMT</pubDate>
       <sparkle:version>18</sparkle:version>
