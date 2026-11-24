@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.11.0</title>
+      <pubDate>Tue, 24 Nov 2026 23:23:43 GMT</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;While a PR&amp;#x27;s tab shows **Files changed**, the inspector&amp;#x27;s Git panel lists its files: the one in view is highlighted, a click scrolls the tab to it, and ticking Viewed there folds it in the tab, which gives its diffs the full width&lt;/li&gt;&lt;li&gt;The Git panel opens uncommitted changes by default while there are any&lt;/li&gt;&lt;li&gt;A PR&amp;#x27;s **Collapse all** turns into **Expand all** once every file is folded&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;**Free up space** counts down steadily instead of bouncing, and clicking it again no longer restarts worktrees already being shelved&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.11.0/Conduit-0.11.0.zip" sparkle:edSignature="PEa2UQL9V+DQMYsgg1rUFDR0eVr5vysZCxBPggejD5RedrC6TUw/z8sqCJTWsesiHuqzcWeZhV28jjFPOQSRCA==" length="43799823" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.10.0</title>
       <pubDate>Tue, 24 Nov 2026 08:39:40 GMT</pubDate>
       <sparkle:version>20</sparkle:version>
