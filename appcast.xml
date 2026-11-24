@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.10.0</title>
+      <pubDate>Tue, 24 Nov 2026 08:39:40 GMT</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A pull request opens as a tab of its own beside the chat: its title and description (both editable), unresolved threads with Send all to Claude, and everything that&amp;#x27;s happened on it, beside its stack, reviewers, each check and where it stands on merging&lt;/li&gt;&lt;li&gt;**Files changed** in a PR&amp;#x27;s tab shows its whole diff in one scroll, file by file, with Viewed boxes, review threads and line comments, a file tree that follows along, and ] [ / V to move through it. **Commits** narrows it to one commit&lt;/li&gt;&lt;li&gt;Step through a stack from the PR&amp;#x27;s tab: click another PR, or ⇧⌥↑ / ⇧⌥↓&lt;/li&gt;&lt;li&gt;⇧⌘G opens the pull request on GitHub&lt;/li&gt;&lt;li&gt;On a phone, the PRs chip opens the same PR page&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;The review chip and a Git panel row&amp;#x27;s PR number open the PR&amp;#x27;s tab&lt;/li&gt;&lt;li&gt;A PR&amp;#x27;s checks show one by one, and a check waiting on approval or cancelled no longer reads as failed&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.10.0/Conduit-0.10.0.zip" sparkle:edSignature="nyJy1Vb8z9kpr6HJIeZE2cDP2/vpS5MTUWYDUdlTl2hBbSenDv0Z6n1JWE3JqaVGuS5shCmS18Gev69CiIusCQ==" length="43783879" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.9.0</title>
       <pubDate>Mon, 23 Nov 2026 23:10:42 GMT</pubDate>
       <sparkle:version>19</sparkle:version>
