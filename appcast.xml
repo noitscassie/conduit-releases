@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.12.0</title>
+      <pubDate>Thu, 26 Nov 2026 08:07:42 GMT</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Copying from a chat gives Markdown: a whole reply copies as Claude wrote it, and part of one keeps its line breaks and list markers&lt;/li&gt;&lt;li&gt;In the composer, ⇧↩ (Return on a phone) in a list starts the next item, and on an empty item ends the list; quotes carry on the same way&lt;/li&gt;&lt;li&gt;A hint under the desktop composer says what ↩, ⇧↩ and ⌘↩ do where the caret is&lt;/li&gt;&lt;li&gt;Code blocks in chats can wrap their lines: a wrap button beside Copy, and **Wrap code in chats** in Settings › Appearance&lt;/li&gt;&lt;li&gt;Permission prompts show the command, file or address they&amp;#x27;re asking to allow&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Quotes in chats and Markdown previews are set apart with a wash and a rule&lt;/li&gt;&lt;li&gt;Tool rows say what the tool did instead of its raw input, and TodoWrite shows as a checklist&lt;/li&gt;&lt;li&gt;Transcript cards share one **Open** button and one look&lt;/li&gt;&lt;li&gt;The Dashboards, Designs and Activity toolbars are trimmed: filters lead, actions trail&lt;/li&gt;&lt;li&gt;The chart editor is laid out like the schedule editor&lt;/li&gt;&lt;li&gt;Menus have a visible edge, and schedule details lose their grey slabs&lt;/li&gt;&lt;li&gt;Option pickers name the default the way their trigger does, and &amp;quot;Bypass all&amp;quot; / &amp;quot;Full access&amp;quot; are marked as risky&lt;/li&gt;&lt;li&gt;Segmented controls make the selected option read as selected&lt;/li&gt;&lt;li&gt;Activity titles and schedule prompts use the interface face&lt;/li&gt;&lt;li&gt;The phone home, project tabs and file viewer fit on a phone at every text size&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Fixed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A diff&amp;#x27;s line-number gutter no longer runs backwards where removals meet additions&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.12.0/Conduit-0.12.0.zip" sparkle:edSignature="B9pnEaTZBZOPZfNy4VXcvAH89grUiWPZlFzESpsz6c81oxYosqv5paYcExrI9NvOfXqTn0ZK+CmyC8A35AOiDw==" length="43848591" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.11.0</title>
       <pubDate>Tue, 24 Nov 2026 23:23:43 GMT</pubDate>
       <sparkle:version>21</sparkle:version>
