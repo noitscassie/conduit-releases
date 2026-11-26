@@ -6,6 +6,15 @@
     <description>Conduit for macOS</description>
     <language>en</language>
     <item>
+      <title>Conduit 0.13.0</title>
+      <pubDate>Thu, 26 Nov 2026 23:06:52 GMT</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;New&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Pull request tabs dock the chat composer underneath, so notes and **Send to Claude** land in the chat without leaving the PR&lt;/li&gt;&lt;li&gt;⌘↩ while Claude is working sends now: the message goes ahead of the queue and interrupts the run&lt;/li&gt;&lt;li&gt;⌘G opens a pull request on GitHub from its own page&lt;/li&gt;&lt;li&gt;The phone home is split into **Sessions** (what needs you and what&amp;#x27;s running, then recent chats by folder) and **Projects**&lt;/li&gt;&lt;li&gt;Session rows on the phone home have their worktree menu&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Improved&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Clicking a Git panel row with a pull request opens its tab; the row&amp;#x27;s chevron shows its files in place&lt;/li&gt;&lt;li&gt;Git file lists highlight the file in front of the pane&lt;/li&gt;&lt;li&gt;Selecting across a long transcript is faster&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/noitscassie/conduit-releases/releases/download/v0.13.0/Conduit-0.13.0.zip" sparkle:edSignature="gPIwM0DwrSWPoig8RjkPYXFY/B31ZVTuuLB1xwRwHUTezmmz9kDTaV+JwNX543OB+Zx3dQimj+BxV/4vkf9qAQ==" length="44015068" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Conduit 0.12.0</title>
       <pubDate>Thu, 26 Nov 2026 08:07:42 GMT</pubDate>
       <sparkle:version>22</sparkle:version>
